@@ -1,6 +1,5 @@
 format: jb-book
 root: README
-
 parts:
   - caption: Course Requirements
     chapters:
@@ -8,6 +7,7 @@ parts:
       - file: docs/course-requirements/python-environment
       - file: docs/course-requirements/data-science
       - file: docs/course-requirements/platforms
+
   - caption: Tunisia, May 2024
     chapters:
       - file: docs/tunisia-may-24/README
@@ -21,6 +21,7 @@ parts:
           - file: notebooks/tunisia-may-24/1-text2sqL-demo.ipynb
           - file: notebooks/tunisia-may-24/2-document-classification-with-sklearn.ipynb
           - file: notebooks/tunisia-may-24/3-intro-langchain.ipynb
+
   - caption: Malawi, Upcoming, November 2024
     chapters:
       - file: docs/malawi-nov-24/README
@@ -34,6 +35,7 @@ parts:
           - file: notebooks/malawi-nov-24/1-text2sqL-demo.ipynb
           - file: notebooks/malawi-nov-24/2-document-classification-with-sklearn.ipynb
           - file: notebooks/malawi-nov-24/3-intro-langchain.ipynb
+
   - caption: Acknowledgements
     chapters:
       - file: docs/team

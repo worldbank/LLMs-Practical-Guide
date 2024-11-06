@@ -1,4 +1,4 @@
-# Introduction to Generative AI and LLMs
+# Module 2: Introduction to Generative AI and LLMs
 
 ### Module Objectives
 This module provides foundational knowledge on Large Language Models (LLMs), covering key concepts such as pretraining, foundational models, and adapting LLMs through fine-tuning. Additionally, the module introduces various open-source and proprietary LLMs currently available on the market.
