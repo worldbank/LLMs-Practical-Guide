@@ -3,12 +3,12 @@ requires = ["hatchling>=1.21.0", "hatch-vcs>=0.3.0"]
 build-backend = "hatchling.build"
 
 [project]
-name = "LLM-Practical-Guide"
+name = "template"
 description = "A template Python package from the World Bank Data Lab"
 readme = { file = "README.md", content-type = "text/markdown" }
 license = { file = "LICENSE" }
 keywords = ["template", "reproducibility"]
-authors = [{ name = "Dunstan Matekenya", email = "dmatekenya@worldbankgroup.org" }]
+authors = [{ name = "Development Data Group", email = "datalab@worldbank.org" }]
 classifiers = [
 	"Programming Language :: Python :: 3",
 	"Programming Language :: Python :: 3.7",
@@ -25,12 +25,7 @@ classifiers = [
 dynamic = ["version"]
 
 requires-python = ">=3.7"
-dependencies = [
-	"bokeh>=3,<4",
-	"requests>=2.28.1",
-	"pandas>=2",
-	"pycountry>=22.3.5",
-]
+dependencies = ["requests>=2.28.1", "pandas>=2", "pycountry>=22.3.5"]
 [project.optional-dependencies]
 docs = [
 	"docutils==0.17.1", # pinned to docutils==0.17.1 due to https://github.com/worldbank/template/issues/60. See also: https://jupyterbook.org/en/stable/content/citations.html?highlight=docutils#citations-and-bibliographies
@@ -38,19 +33,17 @@ docs = [
 ]
 
 [project.urls]
-"Homepage" = "https://github.com/worldbank/LLMs-Practical-Guide/"
-"Bug Reports" = "https://github.com/worldbank/LLMs-Practical-Guide/issues"
-"Source" = "https://github.com/worldbank/LLMs-Practical-Guide/"
+"Homepage" = "https://github.com/worldbank/template"
+"Bug Reports" = "https://github.com/worldbank/template/issues"
+"Source" = "https://github.com/worldbank/template"
 
 [tool.codespell]
-skip = 'docs/_build,docs/bibliography.bib,*.png,*.gz,*.whl'
+skip = 'docs/_build,docs/references.bib,*.png,*.gz,*.whl'
 ignore-regex = '^\s*"image\/png":\s.*'
-ignore-words-list = "gost,Nd"
+ignore-words-list = "gost,"
 
-[tool.hatch.build.targets.sdist]
-include = [
-    "src/**/*"
-]
+[tool.hatch.build.targets.wheel]
+packages = ["src/*"]
 
 [tool.hatch.version]
 source = "vcs"
