@@ -3,7 +3,7 @@ requires = ["hatchling>=1.21.0", "hatch-vcs>=0.3.0"]
 build-backend = "hatchling.build"
 
 [project]
-name = "llm-practical-guide"
+name = "LLM-Practical-Guide"
 description = "A template Python package from the World Bank Data Lab"
 readme = { file = "README.md", content-type = "text/markdown" }
 license = { file = "LICENSE" }
