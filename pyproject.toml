@@ -3,12 +3,12 @@ requires = ["hatchling>=1.21.0", "hatch-vcs>=0.3.0"]
 build-backend = "hatchling.build"
 
 [project]
-name = "template"
+name = "llm-practical-guide"
 description = "A template Python package from the World Bank Data Lab"
 readme = { file = "README.md", content-type = "text/markdown" }
 license = { file = "LICENSE" }
 keywords = ["template", "reproducibility"]
-authors = [{ name = "Development Data Group", email = "datalab@worldbank.org" }]
+authors = [{ name = "Dunstan Matekenya", email = "dmatekenya@worldbankgroup.org" }]
 classifiers = [
 	"Programming Language :: Python :: 3",
 	"Programming Language :: Python :: 3.7",
@@ -38,9 +38,9 @@ docs = [
 ]
 
 [project.urls]
-"Homepage" = "https://github.com/worldbank/template"
-"Bug Reports" = "https://github.com/worldbank/template/issues"
-"Source" = "https://github.com/worldbank/template"
+"Homepage" = "https://github.com/worldbank/LLMs-Practical-Guide/"
+"Bug Reports" = "https://github.com/worldbank/LLMs-Practical-Guide/issues"
+"Source" = "https://github.com/worldbank/LLMs-Practical-Guide/"
 
 [tool.codespell]
 skip = 'docs/_build,docs/bibliography.bib,*.png,*.gz,*.whl'
