@@ -16,7 +16,7 @@ parts:
       - file: docs/tunisia-may-24/module-3
       - file: docs/tunisia-may-24/module-4
       - file: docs/tunisia-may-24/project-ideas
-      - file: notebooks/tunisia-may-24/README
+      - file: notebooks/tunisia-may-24/tunisia
         sections:
           - file: notebooks/tunisia-may-24/1-text2sqL-demo.ipynb
           - file: notebooks/tunisia-may-24/2-document-classification-with-sklearn.ipynb
@@ -29,7 +29,7 @@ parts:
       - file: docs/malawi-nov-24/module-3
       - file: docs/malawi-nov-24/module-4
       - file: docs/malawi-nov-24/project-ideas
-      - file: notebooks/malawi-nov-24/README
+      - file: notebooks/malawi-nov-24/malawi
         sections:
           - file: notebooks/malawi-nov-24/1-text2sqL-demo.ipynb
           - file: notebooks/malawi-nov-24/2-document-classification-with-sklearn.ipynb
