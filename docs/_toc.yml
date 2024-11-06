@@ -23,13 +23,13 @@ parts:
           - file: notebooks/tunisia-may-24/3-intro-langchain.ipynb
   - caption: Malawi, Upcoming, November 2024
     chapters:
-      - file: docs/tunisia-may-24/README
-      - file: docs/tunisia-may-24/module-1
-      - file: docs/tunisia-may-24/module-2
-      - file: docs/tunisia-may-24/module-3
-      - file: docs/tunisia-may-24/module-4
-      - file: docs/tunisia-may-24/project-ideas
-      - file: notebooks/tunisia-may-24/README
+      - file: docs/malawi-nov-24/README
+      - file: docs/malawi-nov-24/module-1
+      - file: docs/malawi-nov-24/module-2
+      - file: docs/malawi-nov-24/module-3
+      - file: docs/malawi-nov-24/module-4
+      - file: docs/malawi-nov-24/project-ideas
+      - file: notebooks/malawi-nov-24/README
         sections:
           - file: notebooks/malawi-nov-24/1-text2sqL-demo.ipynb
           - file: notebooks/malawi-nov-24/2-document-classification-with-sklearn.ipynb
