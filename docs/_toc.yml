@@ -34,6 +34,6 @@ parts:
           - file: notebooks/malawi-nov-24/1-text2sqL-demo.ipynb
           - file: notebooks/malawi-nov-24/2-document-classification-with-sklearn.ipynb
           - file: notebooks/malawi-nov-24/3-intro-langchain.ipynb
-    - caption: Acknowledgements
+  - caption: Acknowledgements
     chapters:
       - file: docs/team
