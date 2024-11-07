@@ -2,6 +2,9 @@
 __pycache__/
 *.py[cod]
 
+# Ignore some data folders
+/data/acled/
+
 # C extensions
 *.so
 
