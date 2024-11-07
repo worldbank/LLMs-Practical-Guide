@@ -1,4 +1,4 @@
-# Programming Activities for the Course
+# Programming Activities
 
 This document outlines the programming activities for the course, focusing on hands-on projects to apply the concepts learned. The document is organized into two main sections: an introduction to LLM capabilities and LangChain, followed by a practical exercise on deploying a chatbot with Streamlit.
 

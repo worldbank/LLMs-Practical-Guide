@@ -1,5 +1,5 @@
-# Python Environment Configuration
-In this section, we provide the minimal Python packages required to complete the programming exercises in this course. We are saying minimal because for some of the project work, you may need extra packages
+# Essential Python Foundations and Learning Resources 
+To build effective and efficient applications with language models, a solid foundation in Python is essential. This section outlines the core Python skills that will support your development journey, from basic programming principles to essential tools for working with APIs and managing environments. Additionally, a curated list of free resources is provided to help you either learn or review these skills, ensuring you have the confidence and capability to maximize your work with language-based applications.
 
 ## Prerequisite Python Skills
 A solid foundation in core Python skills is essential for building LLM-based applications with LangChain. These prerequisites enable efficient coding, debugging, and API interaction, which are critical for working effectively with language models. Below is a list of recommended skills to help you maximize your learning in this course.
