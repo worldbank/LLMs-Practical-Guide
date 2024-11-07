@@ -1,6 +1,6 @@
-# Generative AI and LLMs for Data Literacy
-
-The first iteration of this course was delivered in Tunis, Tunisia, from May 27 to May 31, as part of the Data in Health Program organized by the World Bank Group and the African Development Bank.
+# Session Overview 
+The first iteration of this course was delivered in Tunis, Tunisia, from May 27 to May 31, as part of the Data in Health Program organized by the World Bank Group and the African Development Bank. 
+> Course Title: Generative AI and LLMs for Data Literacy
 
 ## Session Details
 

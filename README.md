@@ -48,7 +48,7 @@ This course has been delivered in different formats to cater to various audience
 ## Repository Structure and Contents
 This repository serves as the primary resource for accessing course content, including slides, Python programming labs, example applications using LLMs, and additional materials to support learning about Generative AI and building applications with LLMs. For easy navigation, use the link and contents outlined below.
 
-### Contents
+## Contents
 
 ```{tableofcontents}
 ```

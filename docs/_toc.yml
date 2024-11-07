@@ -7,35 +7,40 @@ parts:
       - file: docs/course-requirements/python-environment
       - file: docs/course-requirements/data-science
       - file: docs/course-requirements/platforms
-
   - caption: Tunisia, May 2024
     chapters:
-      - file: docs/tunisia-may-24/README
-      - file: docs/tunisia-may-24/module-1
-      - file: docs/tunisia-may-24/module-2
-      - file: docs/tunisia-may-24/module-3
-      - file: docs/tunisia-may-24/module-4
-      - file: docs/tunisia-may-24/project-ideas
-      - file: notebooks/tunisia-may-24/tunisia
+      - file: docs/tunisia-may-24/tunisia
+      - file: docs/tunisia-may-24/tun-modules
         sections:
-          - file: notebooks/tunisia-may-24/1-text2sqL-demo.ipynb
-          - file: notebooks/tunisia-may-24/2-document-classification-with-sklearn.ipynb
-          - file: notebooks/tunisia-may-24/3-intro-langchain.ipynb
-
-  - caption: Malawi, Upcoming, November 2024
+          - file: docs/tunisia-may-24/tun-module-1
+          - file: docs/tunisia-may-24/tun-module-2
+          - file: docs/tunisia-may-24/tun-module-3
+          - file: docs/tunisia-may-24/tun-module-4
+      - file: docs/tunisia-may-24/tun-project
+        sections:
+          - file: docs/tunisia-may-24/tun-project-ideas
+          - file: docs/tunisia-may-24/streamlit-app-deployment
+      - file: notebooks/tunisia-may-24/tun-notebooks-intro
+        sections:
+          - file: notebooks/tunisia-may-24/text2sql-demo.ipynb
+          - file: notebooks/tunisia-may-24/document-classification-with-sklearn.ipynb
+          - file: notebooks/tunisia-may-24/intro-langchain.ipynb
+  - caption: Malawi, Upcoming (Dec 24)
     chapters:
-      - file: docs/malawi-nov-24/README
-      - file: docs/malawi-nov-24/module-1
-      - file: docs/malawi-nov-24/module-2
-      - file: docs/malawi-nov-24/module-3
-      - file: docs/malawi-nov-24/module-4
-      - file: docs/malawi-nov-24/project-ideas
-      - file: notebooks/malawi-nov-24/malawi
+      - file: docs/malawi-nov-24/malawi
+      - file: docs/malawi-nov-24/mw-modules
+        sections:
+          - file: docs/malawi-nov-24/mw-module-1
+          - file: docs/malawi-nov-24/mw-module-2
+          - file: docs/malawi-nov-24/mw-module-3
+          - file: docs/malawi-nov-24/mw-module-4
+      - file: docs/malawi-nov-24/mw-project.md
+        sections:
+          - file: docs/malawi-nov-24/mw-project-ideas
+          - file: docs/malawi-nov-24/mw-streamlit-app
+      - file: notebooks/malawi-nov-24/mw-notebooks-intro
         sections:
           - file: notebooks/malawi-nov-24/1-text2sqL-demo.ipynb
           - file: notebooks/malawi-nov-24/2-document-classification-with-sklearn.ipynb
           - file: notebooks/malawi-nov-24/3-intro-langchain.ipynb
-
-  - caption: Acknowledgements
-    chapters:
-      - file: docs/team
+      
