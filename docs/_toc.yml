@@ -16,15 +16,15 @@ parts:
           - file: docs/tunisia-may-24/tun-module-2
           - file: docs/tunisia-may-24/tun-module-3
           - file: docs/tunisia-may-24/tun-module-4
+      - file: notebooks/tunisia-may-24/tun-notebooks-intro.md
+        sections:
+          - file: notebooks/tunisia-may-24/1-text2sql-demo.ipynb
+          - file: notebooks/tunisia-may-24/2-document-classification-with-sklearn.ipynb
+          - file: notebooks/tunisia-may-24/3-intro-langchain.ipynb
       - file: docs/tunisia-may-24/tun-project
         sections:
           - file: docs/tunisia-may-24/tun-project-ideas
           - file: docs/tunisia-may-24/streamlit-app-deployment
-      - file: notebooks/tunisia-may-24/tun-notebooks-intro
-        sections:
-          - file: notebooks/tunisia-may-24/text2sql-demo.ipynb
-          - file: notebooks/tunisia-may-24/document-classification-with-sklearn.ipynb
-          - file: notebooks/tunisia-may-24/intro-langchain.ipynb
   - caption: Malawi, Upcoming (Dec 24)
     chapters:
       - file: docs/malawi-nov-24/malawi
@@ -34,13 +34,35 @@ parts:
           - file: docs/malawi-nov-24/mw-module-2
           - file: docs/malawi-nov-24/mw-module-3
           - file: docs/malawi-nov-24/mw-module-4
-      - file: docs/malawi-nov-24/mw-project.md
-        sections:
-          - file: docs/malawi-nov-24/mw-project-ideas
-          - file: docs/malawi-nov-24/mw-streamlit-app
       - file: notebooks/malawi-nov-24/mw-notebooks-intro
         sections:
           - file: notebooks/malawi-nov-24/1-text2sqL-demo.ipynb
           - file: notebooks/malawi-nov-24/2-document-classification-with-sklearn.ipynb
           - file: notebooks/malawi-nov-24/3-intro-langchain.ipynb
+      - file: docs/malawi-nov-24/mw-project.md
+        sections:
+          - file: docs/malawi-nov-24/mw-project-ideas
+          - file: docs/malawi-nov-24/mw-streamlit-app
+  - caption: Examples and Demos
+    chapters:
+      - file: docs/chatbot-examples
+        sections:
+          - url: https://github.com/worldbank/RAG-Based-ChatBot-Example
+            title: RAG Based Chatbot with Streamlit
+          - url: https://github.com/worldbank/WhatsApp-RAG-Example
+            title: RAG Based Chatbot with WhatsApp Frontend
+          - url: https://github.com/dmatekenya/Phoso-AI
+            title: PhosoAI- A Food Prices Chatbot 
+      - file: notebooks/text-classification/intro-text-classification
+        sections:
+          - file: notebooks/text-classification/protest-classification-gpt.ipynb
+  - caption: Additional Resources
+    chapters:
+      - file: docs/additional-resources/intro-open-source-llms
+        sections:
+          - file: docs/additional-resources/llm3
+  - caption: Instructors and Contributors
+    chapters:
+      - file: docs/contributors/dunstanmatekenya
+  
       
