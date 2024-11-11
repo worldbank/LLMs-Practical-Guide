@@ -25,7 +25,7 @@ parts:
         sections:
           - file: docs/tunisia-may-24/tun-project-ideas
           - file: docs/tunisia-may-24/streamlit-app-deployment
-  - caption: Malawi, Upcoming (Dec 24)
+  - caption: Malawi, Upcoming (Nov 24)
     chapters:
       - file: docs/malawi-nov-24/malawi
       - file: docs/malawi-nov-24/mw-modules
