@@ -22,3 +22,10 @@ To help you build the required skills in data science, machine learning, and NLP
 | NLP with Transformers | Hugging Face       | 4 hours    | [Hugging Face Transformers](https://huggingface.co/learn/nlp-course/chapter1)              |
 | NLP Basics               | fast.ai                | 3 hours    | [NLP with fast.ai](https://course.fast.ai/)                                                          |
 | Machine Learning Basics  | Coursera (Andrew Ng)   | 60 hours   | [Coursera ML course](https://www.coursera.org/learn/machine-learning)                     |
+
+
+## Youtube Videos
+
+If you are very, very short on time and just want a quick introduction to LLMs, please watch this video:
+
+[**30 Minute Introduction to Large Language Models**](https://www.youtube.com/watch?v=wjZofJX0v4M)

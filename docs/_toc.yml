@@ -3,6 +3,7 @@ root: README
 parts:
   - caption: Course Requirements
     chapters:
+      - file: docs/course-requirements/precourse-checklist
       - file: docs/course-requirements/learning-python
       - file: docs/course-requirements/python-environment
       - file: docs/course-requirements/data-science
