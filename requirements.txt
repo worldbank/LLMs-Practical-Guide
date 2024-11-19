@@ -187,7 +187,7 @@ SQLAlchemy==2.0.35
 stack-data==0.6.3
 starlette==0.41.2
 sympy==1.13.1
-tenacity==9.0.0
+tenacity>=8.2.3,<9.0.0
 terminado==0.18.1
 threadpoolctl==3.5.0
 tiktoken==0.8.0
