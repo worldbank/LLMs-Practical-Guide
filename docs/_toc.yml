@@ -56,7 +56,7 @@ parts:
             title: PhosoAI- A Food Prices Chatbot 
       - file: notebooks/text-classification/intro-text-classification
         sections:
-          - file: notebooks/text-classification/protest-classification-gpt.ipynb
+          - file: notebooks/text-classification/protest-classification.ipynb
   - caption: Additional Resources
     chapters:
       - file: docs/additional-resources/intro-open-source-llms

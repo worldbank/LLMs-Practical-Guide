@@ -5,6 +5,9 @@ __pycache__/
 # Ignore some data folders
 /data/acled/
 
+# course slides 
+slides/
+
 # C extensions
 *.so
 
