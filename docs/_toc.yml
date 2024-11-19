@@ -17,7 +17,7 @@ parts:
           - file: docs/tunisia-may-24/tun-module-2
           - file: docs/tunisia-may-24/tun-module-3
           - file: docs/tunisia-may-24/tun-module-4
-      - file: notebooks/tunisia-may-24/tun-notebooks-intro.md
+      - file: notebooks/tunisia-may-24/tun-notebooks-intro
         sections:
           - file: notebooks/tunisia-may-24/1-text2sql-demo.ipynb
           - file: notebooks/tunisia-may-24/2-document-classification-with-sklearn.ipynb
