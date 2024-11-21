@@ -1,5 +1,4 @@
 ace_tools==0.0
-acled_conflict_analysis @ git+https://github.com/datapartnership/acled_conflict_analysis.git@5f3f089a3a0662379b034a13f8ecc67a58f03609
 aiohappyeyeballs==2.4.3
 aiohttp==3.10.10
 aiosignal==1.3.1
